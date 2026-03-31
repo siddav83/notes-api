@@ -6,6 +6,7 @@ from datetime import datetime
 
 Base = declarative_base()
 
+#this is the model below, this is used to fetch the data from the db
 
 class Note(Base):
     __tablename__ = "notes"
