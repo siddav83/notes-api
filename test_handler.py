@@ -1,5 +1,4 @@
 import handler
-# import json
 
 # List notes (should be empty)
 print(handler.lambda_handler({"routeKey": "GET /notes"}, None))
